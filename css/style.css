@@ -1,0 +1,225 @@
+* { 
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+}
+
+body {
+    background-image: url(../img/1598022.png);
+    font-family: "Zain";
+    background-size: cover;
+}
+
+/*Header*/
+header {
+    background-color:rgba(150, 38, 38, 0.842) ;
+    display: flex;
+    text-align: center;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.icons {
+    margin-right: 10px;  
+  }
+
+.cabecalho {
+    justify-content: center;
+    display: flex;
+    flex-grow: 1;
+}
+
+/*Links de Navegação no Site*/
+.lista {
+    font-size: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+}
+
+.lista a:hover {
+    border-radius: 8px;
+    background-color:rgba(24, 22, 22, 0.466); ;
+    box-shadow: 5px 1px 1px rgba(24, 22, 22, 0.466);
+    padding: 10px;
+}
+
+@media all and (max-width:1150px) {
+    .lista {
+        gap: 10rem;
+    }
+}
+
+@media all and (max-width: 850px) {
+    .lista {
+       gap: 5rem;
+    }
+}
+
+@media all and (max-width: 650px) {
+    .lista {
+       gap: 2rem;
+    }
+}
+
+.logo { 
+    border-radius: 50%;
+    margin-left: 10px;
+    max-height: 80px;
+    margin-right: 20px;
+}
+
+header a {
+     text-decoration: none;
+     color: white;
+     display: flex;
+     text-align: center;
+ }
+
+/*Main*/
+
+.cards {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+@media all and (max-width: 850px) {
+    .cards {
+        margin-top: 30px;
+        flex-flow: column nowrap;
+        height: 185vh;
+    }
+}
+
+
+.conteudo {
+    width: 400px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(8px); 
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content:baseline;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.conteudo h1 {
+    margin-top: 25px;
+    font-size: 42px;
+}
+
+.conteudo p {
+    font-size: 22px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding: 17px;
+}
+
+.conteudo a {
+    font-size: 22px;
+    margin-top: 40px;
+    background-color: rgba(128, 24, 24, 0.842) ;
+    width: 120px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 2px 2px black;
+}
+
+.download {
+    width: 90px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.slogan {
+    width: 80%;
+    height: 175px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(8px); ;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan p {
+    font-size: 62px;
+}
+
+@media all and (max-width: 670px) {
+    .slogan {
+        width: 62%;
+        height: 250px;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+/*Footer*/
+
+.footer {
+    height: 90px;
+    background-color: gray;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+@media all and (max-width: 555px) {
+    .footer {
+        height: 150px;
+    }
+}
+
+.footer .reclame {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+}
+
+.footer .reclame h2 {
+    font-size: 30px;
+    color: rgb(26, 25, 25);
+}
+
+.footer .reclame p {
+    font-size: 18px;
+    text-align: justify;
+    color: rgb(26, 25, 25);
+}
+
+.footer .redes-sociais h2 {
+    font-size: 30px;
+    color: rgb(26, 25, 25);
+}
+
+.footer .reclame h2:hover {
+    text-decoration: underline;
+    
+}
+
+.redes-sociais ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.link-redes {
+    width: 30px;
+}
+
+.link-redes:hover {
+    border: 2px solid black;
+}
