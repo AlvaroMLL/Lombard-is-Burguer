@@ -9,8 +9,6 @@ Esse é o projeto de um site simples para uma hamburgueria utilizando apenas HTM
 
 ## Como utilizar o site:
 
-- Git clone https://github.com/12Gustavo21/floraweb.git or download the zip
-- Unzip if you download the zip
 - Pagina online (https://alvaromll.github.io/Lombard-is-Burguer/)
 
 ## Informações de contato:
