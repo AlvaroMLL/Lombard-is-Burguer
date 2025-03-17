@@ -1,0 +1,48 @@
+body {
+    background-image: url(../img/1598022.png);
+    font-family: "Zain";
+    background-size: cover;
+}
+
+.card {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-flow: column nowrap;
+}
+
+.cardapio {
+    width: 1600px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(8px); 
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    justify-content: center;
+}
+
+.cardapio p {
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-right: 30px;
+}
+
+.cardapio h1 {
+    font-size: 32px;
+}
+
+.cardapio img {
+    border-radius: 50%;
+    width: 260px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
